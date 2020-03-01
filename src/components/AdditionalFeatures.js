@@ -21,7 +21,7 @@ const AdditionalFeatures = props => {
 
 const mapStateToProps = state => {
   return {
-    additionalFeatures: state.additionalFeaturesReducer.additionalFeatures
+    additionalFeatures: state.additionalFeatures
   };
 };
 

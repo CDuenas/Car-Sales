@@ -15,9 +15,9 @@ const Header = props => {
 
 const mapStateToProps = state => {
   return {
-    price: state.carReducer.price,
-    name: state.carReducer.name,
-    image: state.carReducer.image
+    price: state.car.price,
+    name: state.car.name,
+    image: state.car.image
   }
 }
 
